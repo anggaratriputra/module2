@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+table {
+    border-collapse: collapse; 
+    border: 1px solid #000; 
+    background: yellowgreen;
+    
+  }
+  
+td, th {
+    border: 1px solid #000; 
+    padding: 4px; 
+    text-align: center;
+  }
+

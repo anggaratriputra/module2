@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purwadhika JCWD</title>
+
+    <!-- connect external CSS into HTML -->
+    <link rel = "stylesheet" type="text/css" href="style.css" />
+
+    <!-- internal styles CSS -->
+    <style>
+        h1 {
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- this is my first element -->
+    <!-- inline style CSS -->
+    <p style="color: rgb(55, 0, 255);text-align: center; background-color: yellow;">My cat is very grumpy</p>
+
+    <!-- heading (<h1> ... <h6>)-->
+        <!-- inline CSS is priority in style CSS -->
+    <h1 class = "heading-utama"> This is heading 1</h1>
+    <!-- selector by class CSS -->
+    <h2 class = "text-green"> This is heading 2</h2>
+    <h3> This is heading 3</h3>
+    <h4> This is heading 4</h4>
+    <h5> This is heading 5</h5>
+    <h6> This is heading 6</h6>
+
+    <!-- paragraph (<p>), horizontal line (<hr>) & breaking line (<br>) -->
+    <p class = "text-green bg-blue"> this is paragraph 1</p>
+    <p> this is paragraph 2</p>
+    <hr />
+    <p id = "bio-paragraph">
+        Hello, my name is anggara, <br />
+        currently I'm studying at Purwadhika.
+    </p>
+
+    <!-- html text formatting -->
+    <hr />
+    <b> This is bold text </b><br />
+    <strong> This is strong text </strong><br />
+    <i> This is italic text</i><br />
+    <em> This is emphasize text </em><br />
+    <mark> This is mark text</mark><br />
+    <small> This is small text</small><br />
+    <del> This is delete text </del><br />
+    <ins> This is insert text</ins><br />
+    <span>20<sub>2</sub></span><br />
+    <span>20<sup>1</sup></span><br />
+
+    <!-- combined html text formatting -->
+    <p>
+        <b><i>Javascript</i></b> adalah <mark>bahasa pemrograman.</mark>
+    </p>
+
+    <!-- list <ul> point list and <ol> numbered list-->
+    <hr />
+    <h1> Daftar belanja</h1>
+    <ul>
+        <li>Beras</li>
+        <li>Minyak</li>
+        <li>Gula</li>
+        <li>Santan</li>
+    </ul>
+
+    <h1> Daftar murid JCWD</h1>
+    <ol>
+        <li>Thareq</li>
+        <li>Damar</li>
+        <li>Rizky</li>
+    </ol>
+
+    <!-- table -->
+    <hr />
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>
+                    <colspan="2">TTL
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anggara Tri Putra</td>
+                <td>
+                    <colspan="2">
+                        <center>Malang, 11 Agustus 1998</center>
+                    </colspan>
+                </td>
+            </tr>
+            <tr>
+                <td>Zulpa Yanti</td>
+                <td>
+                    <colspan="2">
+                        <center>Palembang, 19 Juli 1998</center>
+                    </colspan>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr />
+
+    <table border="1">
+        <tr>
+            <th rowspan="2"> No </th>
+            <th colspan="3"> Data </th>
+            <th rowspan="2"> Nilai </th>
+
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>Kelas</td>
+            <td>Umur</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thareq M</td>
+            <td>JCWD 2504</td>
+            <td>16</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ronaldio</td>
+            <td>JCWD 2504</td>
+            <td>13</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+
+    <!-- anchor tag -->
+    <hr />
+    <p>
+        <a href="https://google.com">Google.com</a><br />
+        <!-- <a href = "https://yahoo.com" target="_blank">Yahoo.com</a> -->
+    </p>
+    <p>
+        <a>Link ga kemana mana</a>
+        <a href = "/session1/img.html"> Menuju image page</a>
+        <a href = "/session1/page/page1.html"> Menuju page1</a>
+        <a href = "/session1/form.html"> Menuju form page</a>
+    </p>
+
+
+
+
+</body>
+
+</html>

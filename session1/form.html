@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/session1/form" method="get">
+        <fieldset>
+            <legend><label for="nama"> Nama : </label></legend>
+            <input type="text" name="nama" placeholder="isi nama anda!" />
+        </fieldset>
+        <fieldset>
+            <legend><label for="password"> Password : </label></legend>
+            <input type="password" name="password" placeholder="isi password anda!" />
+        </fieldset>
+        <div>
+            <input type="checkbox" name="skills" value="programming" /> programming
+            <input type="checkbox" name="skills" value="cooking" /> cooking
+            <input type="checkbox" name="skills" value="cleaning" /> cleaning
+        </div>
+        <div>
+            <input type="radio" name="gender" value="man" /> man
+            <input type="radio" name="gender" value="woman" /> woman
+        </div>
+        <br />
+        <input type="number" name="umur" min="0" max="100" /> age
+        <div>
+            <textarea name="alamat" placeholder="isi alamat anda!" rows="5 cols = " 64></textarea>
+        </div>
+        <div>
+            <label for="favColor"> Apa warna favoritmu?</label>
+            <select name="favColor">
+                <option value="red"> Merah </option>
+                <option value="blue" selected> Biru </option>
+                <option value="yellow"> Kuning </option>
+            </select>
+        </div>
+        <br />
+        <button type="submit"> Submit forms!</button>
+        <button type="reset"> reset</button>
+        <button type="button"> Do something</button>
+    </form>
+
+</body>
+
+</html>
