@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purwadhika - CSS Position</title>
+    <link rel="stylesheet" type="text/css" href="/session2/position.css" />
+</head>
+
+
+<body>
+    <section>
+        <h1> Position : Static</h1>
+        <hr />
+        <div class="static">
+            <p> hello world</p>
+        </div>
+    </section>
+    <section>
+        <h1> Position : Relative</h1>
+        <hr />
+        <div class="relative">
+            <span>hello world</span>
+        </div>
+    </section>
+    <section>
+        <h1> Position : Absolute</h1>
+        <div class="relative" style="min-height: 300px;">
+            <div class="absolute">
+                <p> I have no position : relative ancestors</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1> Position : Fixed</h1>
+        <div class ="fixed">
+            this element has fixed position.
+        </div>
+    </section>
+    <section style = "min-height : 1000px">
+        <h1> Position : Sticky</h1>
+        <div class = "sticky">
+            this paragraph is inside sticky container
+        </div>
+    </section>
+</body>
+
+</html>
