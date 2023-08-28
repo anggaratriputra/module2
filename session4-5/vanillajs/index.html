@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+</head>
+
+<body>
+    <h1 id="myElement">Original Text</h1>
+    <button onclick="updateText()"> Update Text!</button>
+    <button onclick="removeText()"> Remove Text!</button>
+
+    <ul>
+
+
+    </ul>
+    <script>
+        function updateText() {
+            const element = document.querySelector("h1#myElement");
+            element.innerHTML = "Updated Text";
+
+
+            const li = document.createElement("li");
+            const text = document.createTextNode("ini list item");
+            li.append(text);
+            const ul = document.querySelector("ul");
+
+
+            ul.append(li);
+        }
+
+        function removeText() {
+            const li = document.querySelector("li");
+            const parentEl = li.parentNode;
+            parentEl.removeChild(li);
+
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
